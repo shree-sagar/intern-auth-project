@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
 
     try {
       final response = await http.post(
-        Uri.parse("https://intern-auth-project-production.up.railway.app"),
+        Uri.parse("https://intern-auth-project-production.up.railway.app/login"),
         headers: {
           "Content-Type": "application/json",
         },
